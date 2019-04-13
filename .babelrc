@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["inline-import", { "extensions": [".css"] }],
+    ["import", { "libraryName": "antd" }],
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ],
+  "presets": ["next/babel"],
+  "ignore": []
+}

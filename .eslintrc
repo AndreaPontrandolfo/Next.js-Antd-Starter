@@ -1,0 +1,16 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": 1,
+    "quotes": [2, "backtick", { "avoidEscape": true }],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always",
+        "objects": "always",
+        "functions": "ignore"
+      }
+    ],
+    "prettier/prettier": [{ "trailingComma": "es5" }, "error"]
+  }
+}
